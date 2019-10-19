@@ -37,6 +37,22 @@
     </header>
     <main>
         <section>
+            <div class="container text-center pt-5">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    请尽可能在<strong>电脑桌面端</strong>操作
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    这是内部人员网站，请无关人员<strong>关闭网站</strong>离开！
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section>
             <div class="container py-5">
                 <div class="card-deck">
                     <div class="card">
@@ -76,18 +92,18 @@
                     </div>
                     <div class="card">
                         <div class="card-header bg-success text-white text-center">
-                            <h3>下载</h3>
+                            <h3>软件及字体</h3>
                         </div>
                         <div class="card-body">
-                            <p>
+                            <p class="text-center">
                                 <a href="https://pan.baiduwp.com/s/12pYGpwtGCzS-7wPKPNuqUQ" target="_blank">
-                                    <u>Adobe InDesign 2019</u>
+                                    <button class="btn btn-primary btn-block">Adobe InDesign<br>
+                                        版本：2019 14.0.3.433</button>
+                                    Windows下载exe<br>macOS下载dmg<br>解压密码：<u>@vposy</u>
                                 </a>
-                                <br>
-                                解压密码：<u>@vposy</u>
                             </p>
                             <hr>
-                            <p>
+                            <p class="text-center">
                                 <a href="download/SourceHanSans.zip">
                                     <u>思源黑体.1</u>
                                 </a>
@@ -107,7 +123,7 @@
                     </div>
                     <div class="card">
                         <div class="card-header bg-danger text-white text-center">
-                            <h3>模板</h3>
+                            <h3>模板及稿件</h3>
                         </div>
                         <div class="card-body">
                             <p>
@@ -115,6 +131,7 @@
                                     <button class="btn btn-danger btn-block">模板<br>更新于2019.10.13</button>
                                 </a>
                             </p>
+                            <hr>
                             <p>
                                 <a href="https://doc.weiyun.com/fba3b3fc463d1785fc4b6fdc0b5b407f" target="_blank">
                                     <button class="btn btn-primary btn-block">2018校刊稿集</button>
@@ -143,7 +160,7 @@
     <script src="https://fanmok.gitee.io/szchenxi_cdn/bootstrap.min.js"></script>
     <!--password-->
     <script>
-        var password = "szchenxi"; password = prompt('请输入访问密码:', ''); if (password != 'szchenxi') { alert("密码错误"); window.opener = null; window.close(); location.href='https://www.szchenxi.cf/';} 
+        var password = "szchenxi"; password = prompt('请输入访问密码:', ''); if (password != 'szchenxi') { alert("密码错误"); window.opener = null; window.close(); location.href = 'https://www.szchenxi.cf/'; } 
     </script>
 </body>
 
